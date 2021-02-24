@@ -13,5 +13,6 @@ python:
 
 script:
   - python setup.py install
+  - pip install hypothesis
   - pytest
 
